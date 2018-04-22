@@ -4,6 +4,8 @@ services:
         image: wurstmeister/zookeeper:3.4.6
         ports:
           - 2181:2181
+        labels:
+            - "com.liuhenhong.description=danti"
     kafka:
         image: wurstmeister/kafka:1.0.0
         environment:
@@ -13,3 +15,6 @@ services:
             KAFKA_CREATE_TOPICS: "topic-jhipster:1:1"
         ports:
             - 9092:9092
+
+        labels:
+            - "com.liuhenhong.description=danti"

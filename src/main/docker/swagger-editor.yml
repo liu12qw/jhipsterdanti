@@ -4,3 +4,6 @@ services:
         image: swaggerapi/swagger-editor:latest
         ports:
             - 7742:8080
+
+        labels:
+            - "com.liuhenhong.description=danti"

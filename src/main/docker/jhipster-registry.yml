@@ -17,3 +17,7 @@ services:
             # - GIT_SEARCH_PATHS=central-config
         ports:
             - 8761:8761
+
+        labels:
+            - "com.liuhenhong.description=danti"
+            - "test=danti"

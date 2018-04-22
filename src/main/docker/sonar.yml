@@ -5,3 +5,6 @@ services:
         ports:
             - 9000:9000
             - 9092:9092
+
+        labels:
+            - "com.liuhenhong.description=danti"
